@@ -18,7 +18,7 @@ let startTime = undefined;
 
 const customGot = got.extend({
   cookieJar,
-  timeout: 10000,
+  timeout: 20000,
 });
 
 const successLessons = new Set();
